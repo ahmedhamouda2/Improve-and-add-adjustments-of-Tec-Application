@@ -1,0 +1,127 @@
+/* General Style  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #45BADD ;
+    font-family : 'Rowdies', cursive;
+}
+p {
+    Font-family : 'Rowdies', cursive;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Style For Header Section */
+.container-header {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Style For content Section */
+.container-content {
+    width: 414px;
+    height: 439px;
+    margin: auto;
+}
+#robot {
+    margin: 0 71px;
+}
+.container-content-introduction {
+    line-height: 22px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+/* Style For Speak Sectin */
+.container-speak {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.container-speak-paragraph {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+#volume {
+    margin-left: 12px;
+    cursor: pointer;
+}
+#volume:active{
+    width: 25px;
+    height: 25px;
+}
+
+/* Style For Button */
+button {
+    width: 15rem;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #82FF34;
+    color: #ff3482;
+    box-shadow: 0px 4px 4px #ff3482;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.button-paragraph {
+    text-decoration: none;
+}
+button:hover {
+    box-shadow: 0 8px 9px 0 #ff3482;
+}
+button:active {
+    transform: translateY(3px);
+}
+/* Start media query */
+@media (max-width:375px){
+    .container {
+        width: auto;
+    }
+    .container-header-logo {
+        margin: 14px 110px 0 8px;
+    }
+    .container-header-home {
+        margin: 14px 0 0 110px;
+    }
+    .container-speak {
+        margin-left: 99px;
+    }
+    button {
+        margin: 10% 90px;
+    }
+}
+@media (min-width:725px){
+    .container {
+        width: auto;
+    }
+    .container-header-logo {
+        margin: 0px 192px 0 0;
+    }
+    .container-header-home {
+        margin: 0px 0 0 192px;
+    }
+}
+@media (min-width:1024px){
+    .container-header-logo {
+        margin: 0px 270px 0 0;
+    }
+    .container-header-home {
+        margin: 0px 0 0 270px;
+    }
+}
+/* End media query */ 
