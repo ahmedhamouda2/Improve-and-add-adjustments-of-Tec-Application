@@ -1,0 +1,103 @@
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background: #45BADD;
+    font-family : 'Rowdies', cursive; 
+    min-height: 90vh;
+}
+/* Header Section Style*/
+.logo-and-who-is-tec-button-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0 auto;
+    cursor: pointer;
+}
+#who-is-tec-button{
+    width: 8.5rem;
+    height: 5.4vh;
+    background: #FF3482;
+    color: #FFF;
+    box-shadow: -5px 5px 6px 1px rgba(130, 255, 52, 0.57);
+    border-radius: 30px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#who-is-tec-button:hover{
+    box-shadow: -5px 9px 10px 3px rgba(130, 255, 52, 0.57);
+}
+#who-is-tec-button:active{
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px rgba(130, 255, 52, 0.57);
+}
+
+/* Figure Section Style */
+.robot-and-speaker-icon-container{
+    text-align: center;
+    margin-top: 45px;
+}
+.text-and-speaker-icon-figure{
+    display: flex;
+    justify-content: center;
+}
+.text-figure-container{
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.69);
+    margin-left: 36px;
+}
+#speaker-icon{
+    margin-left: 7px;
+    cursor: pointer;
+}
+#speaker-icon:active{
+    width: 25px;
+    height: 25px;
+}
+#pause {
+    color: #FF3482;
+    padding: 4px;
+    border-radius: 6px;
+    height: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Learn-with-Tec-button {
+    text-align: center;
+    margin-top: 75px;
+}
+.link-index-section {
+    text-decoration: none;
+}
+#Learn-with-Tec-button{
+    cursor: pointer;
+    background: #82FF34;
+    box-shadow: 0px 4px 4px #FF3482;
+    border-radius: 50px;
+    border: none;
+    width: 15rem;
+    height: 80px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #ff3482;
+    outline: none;
+    transition: 0.3s;
+}
+#Learn-with-Tec-button:hover{
+    box-shadow: 0 8px 9px 0 #FF3482;
+}
+#Learn-with-Tec-button:active{
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 #FF3482;
+}
